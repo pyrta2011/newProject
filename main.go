@@ -18,6 +18,7 @@ func main() {
 }
 
 func calculateUnits(day int, unit int) (int, error) {
+	/*Считаем в функции количество часов, минут, секунд*/
 	if day <= 0 {
 		return 0, errors.New("количество дней не может быть нулевым или отрицательным")
 	}
